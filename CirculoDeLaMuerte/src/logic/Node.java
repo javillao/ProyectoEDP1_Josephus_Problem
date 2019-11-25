@@ -8,6 +8,7 @@ package logic;
 /**
  *
  * @author Administrador
+ * @param <E>
  */
 public class Node<E> {
     private E content;

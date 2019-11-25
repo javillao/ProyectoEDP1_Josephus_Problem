@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/GUI/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/circulodelamuerte/CirculoDeLaMuerte.java</file>
+            <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/circulodelamuerte/FXMLDocumentController.java</file>
             <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/logic/Node.java</file>
+            <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/circulodelamuerte/Test.java</file>
             <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/logic/List.java</file>
-            <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/GUI/CirculoDeLaMuerte.java</file>
+            <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/logic/Person.java</file>
             <file>file:/C:/Users/Xtratech1/Desktop/Docs%20espol/Semestres/Sexto%20semestre/Estructuras/ProyectoParcial1/CirculoDeLaMuerte/src/logic/CircularDoublyLinkedList.java</file>
         </group>
     </open-files>

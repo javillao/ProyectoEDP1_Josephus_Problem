@@ -26,4 +26,5 @@ public interface List <E> extends Iterable<E>{
    boolean remove(E element);
    E set(int index, E element);
    int size();
+   void clear();
 }

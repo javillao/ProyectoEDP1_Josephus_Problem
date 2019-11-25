@@ -48,7 +48,7 @@ public class CircularDoublyLinkedList<E> implements List<E>{
             
             @Override
             public boolean hasNext() {
-                return true;
+                return next.getNext() != null;
             }
 
             @Override
@@ -60,13 +60,14 @@ public class CircularDoublyLinkedList<E> implements List<E>{
 
             @Override
             public boolean hasPrevious() {
-                return true;
+                return next.getPrev() != null;
             }
 
             @Override
             public E previous() {
+               Node<E> actualNext = next;
                next = next.getPrev();
-               return next.getContent();
+               return actualNext.getContent();
             }
 
             @Override
@@ -186,7 +187,10 @@ public class CircularDoublyLinkedList<E> implements List<E>{
 
     @Override
     public E get(int index) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Node<E> node = this.last.getNext();
+        for(int i = 0; i < index; i++)
+            node = node.getNext();
+        return node.getContent();
     }
 
     @Override
@@ -204,4 +208,9 @@ public class CircularDoublyLinkedList<E> implements List<E>{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
+    @Override
+    public void clear(){
+        this.effectiveSize = 0;
+        this.last = null;
+    }
 }
