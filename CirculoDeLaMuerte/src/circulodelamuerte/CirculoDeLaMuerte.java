@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author JordyVillao
+ * @author Grupo12
  */
 public class CirculoDeLaMuerte extends Application {
     
