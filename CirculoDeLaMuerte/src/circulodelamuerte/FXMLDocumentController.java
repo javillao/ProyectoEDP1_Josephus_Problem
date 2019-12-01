@@ -22,7 +22,7 @@ import logic.CircularDoublyLinkedList;
 import logic.Person;
 /**
  *
- * @author JordyVillao
+ * @author Grupo12
  */
 public class FXMLDocumentController implements Initializable {
     

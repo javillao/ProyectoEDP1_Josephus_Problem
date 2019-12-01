@@ -7,7 +7,7 @@ package logic;
 
 /**
  *
- * @author Administrador
+ * @author Grupo12
  * @param <E>
  */
 public class Node<E> {

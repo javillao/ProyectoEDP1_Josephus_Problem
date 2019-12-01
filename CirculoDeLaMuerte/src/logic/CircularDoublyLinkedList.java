@@ -10,7 +10,7 @@ import java.util.ListIterator;
 
 /**
  *
- * @author JordyVillao
+ * @author Grupo12
  * @param <E>
  */
 public class CircularDoublyLinkedList<E> implements List<E>{

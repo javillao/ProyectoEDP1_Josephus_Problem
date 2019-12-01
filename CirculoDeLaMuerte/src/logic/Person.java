@@ -11,7 +11,7 @@ import javafx.scene.shape.Circle;
 
 /**
  *
- * @author JordyVillao
+ * @author Grupo12
  */
 public class Person extends Circle{
     private boolean isAlive;

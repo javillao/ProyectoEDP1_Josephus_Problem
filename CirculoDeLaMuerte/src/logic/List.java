@@ -7,7 +7,7 @@ package logic;
 
 /**
  *
- * @author JordyVillao
+ * @author Grupo12
  * @param <E>
  */
 public interface List <E> extends Iterable<E>{
