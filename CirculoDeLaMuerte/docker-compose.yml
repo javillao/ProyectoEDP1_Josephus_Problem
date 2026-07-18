@@ -1,0 +1,23 @@
+services:
+  builder:
+    build:
+      context: .
+      target: builder
+    container_name: javafx_builder_explorer
+    entrypoint: ["tail", "-f", "/dev/null"]
+
+  app:
+    build:
+      context: .
+    container_name: javafx_runtime_tester
+    network_mode: "host"
+    environment:
+      - DISPLAY=${DISPLAY}
+      - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
+      - XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR}
+      - PULSE_SERVER=${PULSE_SERVER}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg
+    entrypoint: ["tail", "-f", "/dev/null"]
